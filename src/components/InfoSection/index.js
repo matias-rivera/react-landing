@@ -17,7 +17,7 @@ import {
 
 const InfoSection = ({lightBg, id, imgStart, topLine, lightText,
 headline, darkText, description, buttonLabel, img, alt,
-primary, dark, dark2}) => {
+primary, dark, dark2, redirectTo}) => {
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -29,7 +29,8 @@ primary, dark, dark2}) => {
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <Button to='home'
+                                    <Button 
+                                        to={redirectTo}
                                         smooth={true}
                                         duration={500}
                                         spy={true}

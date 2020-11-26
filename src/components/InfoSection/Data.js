@@ -3,16 +3,17 @@ export const homeObjOne = {
     lightBg: false,
     lightText: true,
     lightTextDesc: true,
-    topLine: 'Premium Bank',
-    headline: 'Unlimited Transactions with zero fees',
-    description: 'Get Access to our exclusive app that allows you to send unlimited trasnactions without getting charged any fees.',
-    buttonLabel: 'Get Started',
+    topLine: 'Lorem Ipsum',
+    headline: 'Lorem ipsum dolor sit amet, consectetur',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
+    buttonLabel: 'More information',
     imgStart: false,
     img: require('../../images/svg-1.svg'),
     alt: 'Car',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: false,
+    redirectTo: 'signup'
 }
 
 export const homeObjTwo = {
@@ -20,16 +21,17 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Unlimited access',
-    headline: 'Unlimited Transactions with zero fees',
-    description: 'Get Access to our exclusive app that allows you to send unlimited trasnactions without getting charged any fees.',
+    topLine: 'Unde Omnis',
+    headline: 'Lorem ipsum dolor sit amet, consectetur',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
     buttonLabel: 'Learn More',
     imgStart: true,
     img: require('../../images/svg-2.svg'),
     alt: 'Piggy',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    redirectTo: 'signup'
 }
 
 export const homeObjThree = {
@@ -37,14 +39,15 @@ export const homeObjThree = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Premium Bank',
-    headline: 'Unlimited Transactions with zero fees',
-    description: 'Get Access to our exclusive app that allows you to send unlimited trasnactions without getting charged any fees.',
+    topLine: 'Sed ut perspiciatis',
+    headline: 'Lorem ipsum dolor sit amet, consectetur',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.',
     buttonLabel: 'Start Now',
     imgStart: false,
     img: require('../../images/svg-3.svg'),
     alt: 'Paper',
     dark: false,
     primary: false,
-    darkText: true
+    darkText: true,
+    redirectTo: 'home'
 }

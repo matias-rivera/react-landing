@@ -30,20 +30,20 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Abouts us</FooterLinkTitle>
-                                <FooterLink to='/signin'>How it works</FooterLink>
-                                <FooterLink to='/signin'>Testimonials</FooterLink>
-                                <FooterLink to='/signin'>Careers</FooterLink>
-                                <FooterLink to='/signin'>Investors</FooterLink>
-                                <FooterLink to='/signin'>Terms of Services</FooterLink>
+                            <FooterLinkTitle>Lorem ipsumt us</FooterLinkTitle>
+                                <FooterLink to='/signin'>Lorem ipsumt</FooterLink>
+                                <FooterLink to='/signin'>Lorem ipsumt</FooterLink>
+                                <FooterLink to='/signin'>Lorem ipsumt</FooterLink>
+                                <FooterLink to='/signin'>Lorem ipsumt</FooterLink>
+                                <FooterLink to='/signin'>Lorem ipsumt</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Abouts us</FooterLinkTitle>
-                                <FooterLink to='/signin'>How it works</FooterLink>
-                                <FooterLink to='/signin'>Testimonials</FooterLink>
-                                <FooterLink to='/signin'>Careers</FooterLink>
-                                <FooterLink to='/signin'>Investors</FooterLink>
-                                <FooterLink to='/signin'>Terms of Services</FooterLink>
+                            <FooterLinkTitle>Lorem ipsumt us</FooterLinkTitle>
+                                <FooterLink to='/signin'>Lorem ipsumt</FooterLink>
+                                <FooterLink to='/signin'>Lorem ipsumt</FooterLink>
+                                <FooterLink to='/signin'>Lorem ipsumt</FooterLink>
+                                <FooterLink to='/signin'>Lorem ipsumt</FooterLink>
+                                <FooterLink to='/signin'>Lorem ipsumt</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
@@ -73,8 +73,7 @@ const Footer = () => {
                         >
                             Logo
                         </SocialLogo>
-                        <WebsiteRights>logo c {new Date().getFullYear()}
-                        All rights reserved.</WebsiteRights>
+                        <WebsiteRights>logo &copy; {new Date().getFullYear()} All rights reserved.</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href='/' target='_blank'
                             aria-label='Facebook'>
